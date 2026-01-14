@@ -1,0 +1,414 @@
+.hero-section {
+  max-width: 1440px;
+  margin: 48px auto;
+  padding: 56px;
+  border-radius: 32px;
+  background: linear-gradient(
+    135deg,
+    #ffe6e6 0%,
+    #eee8fb 45%,
+    #ffb5b5 100%
+  );
+  overflow: hidden;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+.hero-wrapper {
+  padding: 0 24px;      
+}
+
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #5d3eb9;
+}
+
+.hero-text {
+    font-size:26px;
+    color: #333;
+    max-width: 500px;
+}
+
+.lower-nav {
+  margin-top: 32px;
+  padding: 22px 0;
+  background: #ffffff;
+}
+
+
+.lower-nav .container {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: 100px;
+}
+
+.lower-nav .nav-link {
+  color: #0b5cab;              
+  font-weight: 600;             
+  font-size: 18px;              
+  padding: 10px 16px;       
+  line-height: 1.2;
+  text-decoration: none;        
+}
+
+
+.lower-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.lower-nav .cta {
+  background: #0067b8;          
+  color: #fff !important;       
+  border-radius: 18px;         
+  padding: 16px 22px;           
+  font-weight: 600;
+  text-decoration: none;       
+  display: inline-block;       
+  font-size: 16px;
+  border: .125rem solid transparent;
+}
+
+
+.lower-nav .cta:hover {
+  text-decoration: underline;
+  filter: brightness(0.95);     
+}
+
+.hero-img {
+  margin-right: -10px;
+}
+
+.lower-links {
+  display: flex;
+  align-items: center;
+  gap: 28px; /* controls distance between ALL items */
+}
+
+
+/* whole section spacing */
+.experiences{
+  padding: 56px 0;
+}
+
+/* left column */
+.exp-title{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.05;
+  margin-bottom: 12px;
+}
+
+.exp-sub{
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 32ch;
+  margin-bottom: 28px;
+}
+
+.exp-illustration{
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* right tiles */
+.exp-card{
+  border: 0;
+  background: transparent;
+}
+
+.exp-img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+}
+
+.exp-body{
+  padding-top: 14px;
+}
+
+.exp-card-title{
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.exp-card-text{
+  margin: 0 0 8px;
+  color: #333;
+  font-size: 0.95rem;
+  max-width: 56ch;
+}
+
+.exp-link{
+  color: #0b5cab;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.exp-link:hover{
+  text-decoration: underline;
+}
+
+/* Microsoft logo */
+.c-image{
+  max-width: none;
+  width: 108px;
+  margin-top: -3px;
+  height: auto;
+  display: block;
+  margin: 0;
+  border: 0;
+  overflow-x: visible;
+}
+
+
+
+/* 3 cards*/
+.custom-card {
+  background-color: #fde68a; 
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.custom-card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.custom-card-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.custom-card-body h5 {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.custom-card-body p {
+  flex-grow: 1;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #1c1c1d;
+  text-decoration: none;
+}
+
+.card-cta .icon {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.card-cta:hover {
+  text-decoration: underline;
+}
+
+
+/* SECTION SPACING */
+.sharpen-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* LEFT CARD */
+.sharpen-section .card {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+/* TEXT AREA */
+.sharpen-section h3 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.sharpen-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1f1f1f;
+}
+
+/* FOOTER LINKS AREA */
+.sharpen-section .card-footer {
+  background: transparent;
+  border: none;
+  padding-top: 0;
+}
+
+/* WATCH ON DEMAND TITLE */
+.sharpen-section .card-footer b {
+  font-size: 16px;
+}
+
+/* LIST RESET */
+.sharpen-section ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+/* LINKS */
+.sharpen-section .cta {
+  color: #0067b8; 
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sharpen-section .cta:hover {
+  text-decoration: underline;
+}
+
+/* IMAGE */
+.border-round {
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* Sharpen your skills section */
+.col .h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  color: #000;
+  font-family: inherit;
+  display: block;
+}
+
+.col .big-text {
+  font-size: 25px;
+  color: #1f1f1f;
+  max-width: 650px; 
+}
+.col{
+  padding-left: 50px;
+}
+
+
+/* ===== Ramp section ===== */
+.ramp {
+  margin-top: 80px;
+  padding-left: 125px;
+}
+
+/* Gradient frame */
+.ramp-bg {
+  padding: 32px;
+  background: linear-gradient(
+    135deg,
+    #ff6a3d 0%,
+    #f7c566 45%,
+    #8db9ff 100%
+  );
+  border-radius: 28px;
+}
+
+/* White card */
+.ramp-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 24px;
+  align-items: center;
+}
+
+/* Image column */
+.ramp-card .col-lg-6:first-child {
+  display: flex;
+  align-items: center;
+}
+
+/* Image box */
+.ramp img.card-img {
+  width: 110%;
+  max-width: 560px;         
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* Text column */
+.ramp .align-content-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  padding-left: 40px;
+  text-align: center;
+  align-items: center; 
+}
+
+/* Logo */
+.ramp .contrast-bg {
+  margin-bottom: 16px;
+}
+
+/* Paragraph */
+.ramp p {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #1f1f1f;
+  max-width: 420px;
+  margin-bottom: 24px;
+}
+
+/* CTA */
+.custom-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 1px solid #e0e0e0;
+  background: transparent;
+  font-weight: 600;
+}
+
+/* Arrow */
+.special-glyph-btn {
+  width: 28px;
+  height: 28px;
+  background-color: #0d6efd;
+  border-radius: 8px;
+  position: relative;
+}
+
+.special-glyph-btn::after {
+  content: "›";
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
