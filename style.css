@@ -238,8 +238,9 @@
 .sharpen-section {
   margin-top: 80px;
   margin-bottom: 80px;
-  justify-content: center;
-  display: flex;
+  display: flex;                 
+  justify-content: center;       
+  width: 100%;
 }
 
 /* LEFT CARD */
@@ -248,6 +249,8 @@
   box-shadow: none;
   background: transparent;
   margin: 0 auto;
+  max-width: 420px;              
+  width: 100%;
 }
 
 /* TEXT AREA */
@@ -263,6 +266,8 @@
   line-height: 1.6;
   color: #1f1f1f;
   text-align: center;
+  margin-left: auto;             
+  margin-right: auto;            
 }
 
 /* FOOTER LINKS AREA */
@@ -270,7 +275,7 @@
   background: transparent;
   border: none;
   padding-top: 0;
-  justify-content: center;
+  text-align: center;            
 }
 
 /* WATCH ON DEMAND TITLE */
@@ -280,8 +285,8 @@
 
 /* LIST RESET */
 .sharpen-section ul {
-  list-style: disc;
-  padding-left: 20px;
+  list-style-position: inside;   
+  padding-left: 0;               
   margin-top: 8px;
   text-align: center;
   color: #000000;
