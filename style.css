@@ -40,7 +40,12 @@
 .lower-nav .container {
   padding-left: 24px;
   padding-right: 24px;
-  margin-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lower-nav .navbar-collapse {
+  justify-content: center;
 }
 
 .lower-nav .nav-link {
@@ -233,6 +238,7 @@
 .sharpen-section {
   margin-top: 80px;
   margin-bottom: 80px;
+  justify-content: center;
 }
 
 /* LEFT CARD */
@@ -240,6 +246,7 @@
   border: none;
   box-shadow: none;
   background: transparent;
+  margin: 0 auto;
 }
 
 /* TEXT AREA */
@@ -291,6 +298,8 @@
   height: auto;
   border-radius: 20px;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Sharpen your skills section */
@@ -304,13 +313,17 @@
   display: block;
 }
 
+.col .h1,
 .col .big-text {
   font-size: 25px;
   color: #1f1f1f;
   max-width: 650px; 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .col{
-  padding-left: 50px;
+  padding-left: 0;
 }
 
 
