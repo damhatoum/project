@@ -298,12 +298,13 @@
 
 /* IMAGE */
 .border-round {
-  width: 90%;
+  width: 100%;
   height: auto;
   border-radius: 20px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 /* Sharpen your skills section */
