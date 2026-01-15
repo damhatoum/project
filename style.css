@@ -270,6 +270,7 @@
   background: transparent;
   border: none;
   padding-top: 0;
+  justify-content: center;
 }
 
 /* WATCH ON DEMAND TITLE */
