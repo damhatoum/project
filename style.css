@@ -239,6 +239,7 @@
   margin-top: 80px;
   margin-bottom: 80px;
   justify-content: center;
+  display: flex;
 }
 
 /* LEFT CARD */
@@ -302,9 +303,10 @@
   height: auto;
   border-radius: 20px;
   object-fit: cover;
-  display: block;
+  display: flex;
   margin: 0 auto;
   max-width: 800px;
+  justify-content: center;
 }
 
 /* Sharpen your skills section */
