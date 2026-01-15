@@ -254,12 +254,14 @@
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 12px;
+  text-align: center;
 }
 
 .sharpen-section p {
   font-size: 16px;
   line-height: 1.6;
   color: #1f1f1f;
+  text-align: center;
 }
 
 /* FOOTER LINKS AREA */
@@ -267,6 +269,7 @@
   background: transparent;
   border: none;
   padding-top: 0;
+  
 }
 
 /* WATCH ON DEMAND TITLE */
@@ -279,6 +282,8 @@
   list-style: disc;
   padding-left: 20px;
   margin-top: 8px;
+  text-align: center;
+  color: #000000;
 }
 
 /* LINKS */
@@ -286,6 +291,7 @@
   color: #0067b8; 
   text-decoration: none;
   font-weight: 500;
+  
 }
 
 .sharpen-section .cta:hover {
